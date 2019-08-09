@@ -16,8 +16,9 @@ class Numbers {
 
 
     public void setI() {
-         this.i = sc.nextInt();
-   }
+
+        this.i = sc.nextInt();}
+
 
 
     public int getY() {

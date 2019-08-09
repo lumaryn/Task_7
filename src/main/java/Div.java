@@ -4,10 +4,9 @@ class Div {
         try {
             a = i / y;
 
-       }catch (Exception e) {
-       // e.getMessage();
-        System.out.println("Error");
+       }catch (ArithmeticException e) {
+        System.out.println(e);
    }
-
         return a;
-    }}
+    }
+}

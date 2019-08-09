@@ -2,7 +2,8 @@ class Continue extends Operation {
     private int s;
     private char cont;
 
-    public int Again(int a)  {
+
+    public int Again(int a){
 
         System.out.println("Введите 'Y', если хотите продолжить действия с полученным числом: "+a+"  или 'N'-обнулить");
 

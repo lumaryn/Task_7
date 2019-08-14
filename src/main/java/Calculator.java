@@ -20,7 +20,7 @@ class Calculator {
             }
 
             } catch (Exception e) {
-                System.out.println("Некорректное число");
+                System.out.println("Произошла ошибка. Некорректное число или попытка некорректной операции");
             }
         }
     }

@@ -24,7 +24,7 @@ class Operation {
 
     protected int getResult(int i, int y)
     {
-        try {
+
             if (ch == '+') {
                 Add add = new Add();
                 int a = add.getA(i, y);
@@ -45,11 +45,6 @@ class Operation {
             } else {
                 System.out.println("Произошла неведомая ошибка");
             }
-        }
-        catch (Exception e)
-        {
-            System.out.println(e);
-        }
         return a;
     }
 }
